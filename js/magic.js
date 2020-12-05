@@ -149,4 +149,4 @@
           clearOffset: clearOffset ? clearOffset : 0.3,
         });
       return this;
-    },
+    }
