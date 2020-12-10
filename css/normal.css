@@ -2,10 +2,6 @@
     background: transparent;
 }
 
-/*文章透明*/
-.layout_post>#post {
-    background: rgba(255, 255, 255, .9);
-}
 
 /* 滚动条 */
 ::-webkit-scrollbar {
