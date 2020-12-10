@@ -22,11 +22,11 @@ button:hover {
 #rightside>div>a {
     display: block;
     margin-bottom: 2px;
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     color: var(--btn-color);
     text-align: center;
-    font-size: 16px;
+    font-size: 8px;
     cursor: url(https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/link-select.cur), auto;
 }
 
