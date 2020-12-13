@@ -56,11 +56,11 @@
             //请求成功后要执行的函数，拼接html
             success: function(data){
 	//console.log(data);
-	 clock.weatherimg = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/clock/images/weather/' +  data.weather[0].icon + '.png';
+	 clock.weatherimg = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/clock/images/weather/' +  data.weather[0].icon + '.png';
         clock.temperature = data.main.temp + "*C";
         clock.humidity = data.main.humidity + "%";
 		clock.ip =  userip;
-        clock.humidityimg = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/clock/images/weather/hu.png';
+        clock.humidityimg = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/clock/images/weather/hu.png';
         clock.city = data.name;
     let timerID = setInterval(updateTime, 1000);
 	updateTime();
