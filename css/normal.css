@@ -2,20 +2,20 @@
     background: transparent;
 }
 
-div#post{
-  background rgba(255, 255, 255, 0.9)
+#post{
+  background rgba(255, 255, 255, 0.9);
 }
-div#page{
-  background rgba(255, 255, 255, 0.9)
+#page{
+  background rgba(255, 255, 255, 0.9);
 }
-div#archive{
-  background rgba(255, 255, 255, 0.9)
+#archive{
+  background rgba(255, 255, 255, 0.9);
 }
-div#tag{
-  background rgba(255, 255, 255, 0.9)
+#tag{
+  background rgba(255, 255, 255, 0.9);
 }
-div#category{
-  background rgba(255, 255, 255, 0.9)
+#category{
+  background rgba(255, 255, 255, 0.9);
 }
 
 /* 滚动条 */
