@@ -1,5 +1,5 @@
     
-	const mykey = {weather:'3f4a8edd1af9660c9f9ca9386d7177f4'};
+	const mykey = {weather:'1d301d57062b4f9eaff5a7a245c8061a'};
 	let locationurl = 'https://ip.seeip.org/geoip';
 	let cityname ='';
 	let weatherurl ='';
