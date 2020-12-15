@@ -15,7 +15,7 @@ function browserRedirect() {
    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-       var html = "<video loop autoplay style='height: 100%;width: 100%;object-fit: cover;'><source src='你的视频地址'></source></video>";
+       var html = "<video loop autoplay style='height: 100%;width: 100%;object-fit: cover;'><source src='https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.mp4'></source></video>";
        /*添加video*/
        document.getElementById("nav").innerHTML += html;
 
@@ -25,7 +25,7 @@ function browserRedirect() {
 
        function typing() {
            var timer = 0;
-           var str = '不要等到明天，今天就行动起来！！';
+           var str = '一人一人には自分の時間軸があります。';
            if (i <= str.length) {
                subtitle.innerHTML = str.slice(0, i++)
                timer = setTimeout(typing, 300)
