@@ -15,7 +15,7 @@ function browserRedirect() {
    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-       var html = "<video loop autoplay style='height: 720px;width: 1080px;object-fit: cover;'><source src='https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.mp4'></source></video>";
+       var html = "<video loop autoplay style='height: 1080px;width: 1920px;object-fit: index_imgindex_imgindex_img;'><source src='https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.mp4'></source></video>";
        /*添加video*/
        document.getElementById("nav").innerHTML += html;
 
