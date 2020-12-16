@@ -15,9 +15,9 @@ function browserRedirect() {
    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-       var html = "<video loop autoplay style='height: 100%;width: 100%;object-fit: index_img;'><source src='https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.mp4'></source></video>";
+       var index_img = "<video loop autoplay style='height: 100%;width: 100%;object-fit: cover;'><source src='https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.mp4'></source></video>";
        /*添加video*/
-       document.getElementById("nav").innerHTML += html;
+       document.getElementById("nav").innerHTML += index_img;
 
        /*打字效果*/
        var subtitle = document.getElementById('subtitle')
