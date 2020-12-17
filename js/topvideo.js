@@ -18,7 +18,7 @@ if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsC
       // 获取 <video>
       var video = document.getElementById('video');
       // 插入视频(m3u8)
-      var videoSrc = 'https://cdn.jsdelivr.net/gh/lete114/CDN2/video/'+randomNum+'.m3u8';
+      var videoSrc = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.m3u8';
       if (Hls.isSupported()) {
         var hls = new Hls();
         hls.loadSource(videoSrc);
@@ -39,7 +39,7 @@ if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsC
     // 获取 <video>
     var video = document.getElementById('video');
     // 插入视频(m3u8)
-    var videoSrc = 'https://cdn.jsdelivr.net/gh/lete114/CDN2/video/mobile/'+randomNum+'.m3u8';
+    var videoSrc = 'https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/video/home.m3u8';
     if (Hls.isSupported()) {
       var hls = new Hls();
       hls.loadSource(videoSrc);
