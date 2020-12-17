@@ -6,14 +6,14 @@ const catalogMagnet = new Vue({
 		postnum:[],
 		//这里是磁贴背景图片
 		img:[
-			"/Vincent-Pro/source/image/b1.png",
-			"/Vincent-Pro/source/image/b2.png",
-			"/Vincent-Pro/source/image/b3.png",
-			"/Vincent-Pro/source/image/b4.png",
-			"/Vincent-Pro/source/image/b5.png",
-			"/Vincent-Pro/source/image/b6.png",
-			"/Vincent-Pro/source/image/b7.png",
-			"/Vincent-Pro/source/image/b8.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b1.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b2.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b3.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b4.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b5.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b6.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b7.png",
+			"https://cdn.jsdelivr.net/gh/Logostar/Vincent-Pro/source/image/b8.png",
 		],
 		//这里是磁贴描述信息
 		describe:[
