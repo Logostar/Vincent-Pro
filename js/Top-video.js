@@ -51,7 +51,7 @@ if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsC
   }
 }
 if($("#page-header").hasClass("full_page")){
-  var sub = new Array("人生只有一次，大胆的生活！！", "Life only once, live boldly!!");
+  var sub = new Array("", "");
 
   var randomSub = Math.floor((Math.random() * sub.length));
 
